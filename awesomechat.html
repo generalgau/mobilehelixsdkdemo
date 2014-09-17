@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+		<link rel="stylesheet" type="text/css" href="styles/helix-mobile-full.css"/>
+		<link rel="stylesheet" type="text/css" href="styles/bootstrap-3.2.0-dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="styles/chat.css" />
+        <script type="text/javascript" src="scripts/jquery-2.0.2.js"></script>
+        <script type="text/javascript" src="scripts/helix-mobile-full.js"></script>
+		<script type="text/javascript" src="scripts/bootstrap-3.2.0-dist/js/bootstrap.js"></script>
+		<script type="text/javascript" src="scripts/mhscript.js"></script>	
+		
+    </head>
+    <body>
+		<div data-role="page" id="welcome-page">
+			<div data-role="header" data-position="fixed">
+				<h1 id="chatsPage">Loading...</h1>
+			</div>
+		</div>
+
+		<div data-role="page" id="login-page">
+			<div data-role="header" data-position="fixed">
+				<h1 id="chatsPage">Mobile Helix SDK Example</h1>
+				<p>
+				<button class='ui-btn btn btn-danger onlinebutton'>Currently offline. Want to connect?</button>
+				<p>
+			</div>
+
+			<div data-role="content">
+				<div style="width:95%;height:250px;-webkit-border-radius: 50px;-moz-border-radius: 50px;border-radius: 50px;border:7px solid #384056;background-color:#495472;-webkit-box-shadow: #919191 14px 14px 14px;-moz-box-shadow: #919191 14px 14px 14px; box-shadow: #919191 14px 14px 14px;"> 
+					<br><div class="form-group form-group-lg">
+						<div class="col-sm-10">
+						  <input type="text" id="username" class="form-control" placeholder="username"></input>
+						</div>
+					</div>
+					<div class="form-group form-group-lg">
+						<div class="col-sm-10">
+						  <input type="password" id="password" class="form-control" placeholder="password"></input>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-offset-1 col-sm-10">
+						  <button class="ui-btn" id="login-btn">Log in</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		
+		<div data-role="page" id="thread-page">
+			<div data-role="header" data-position="fixed">
+				<h1 id="chatsPage">Messages</h1>
+					<p>
+					<button class='ui-btn btn btn-default' id="logout" type="button">Log Out</button>
+					<button class='ui-btn btn btn-danger onlinebutton'>Currently offline. Want to connect?</button>
+					<button class="ui-btn btn btn-info special-msg-ops" id="add">Add 100 messages</button><br>
+					<button class="ui-btn btn btn-info special-msg-ops" id="adds">Add 500 messages</button><br>
+					<button class="ui-btn btn btn-info special-msg-ops" id="delete">Restore original message thread</button>
+					</p>
+			</div>
+			<div data-role="content"> 
+				<div id="myThreadsList" class="hx-layout-full-height" >  
+				</div>
+
+			</div>
+		</div>
+
+		<div data-role="page" id="chat-page">
+			<div data-role="header" data-position="fixed">
+				<h1 id="chatsPage">Messages</h1>
+					<p>
+					<button class='ui-btn btn-danger onlinebutton'>Currently offline. Want to connect?</button>
+					<button button class='ui-btn btn btn-default' id="logout" type="button">Log Out</button>
+					<a href="#" class="ui-btn btn btn-success" id="back_button" type="button">Back to Chat Thread list</a>
+					<div id="reply">
+						<input type="text" class="form-control" placeholder="your message..." id="messagebox"></input>
+						<span class="input-group-btn">
+							<button class="btn btn-success msg-send-button" type="button" >Send</button>
+						</span>	
+					</div> 
+					
+					
+					</p>
+				
+			</div>
+			
+			<div data-role="content" >
+				<div id="myMessageList" class="hx-layout-full-height" />
+			</div>
+		</div>
+		
+		
+
+	
+    </body>
+</html> 
