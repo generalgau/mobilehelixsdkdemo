@@ -3,7 +3,7 @@ mobilehelixsdkdemo
 
 Demo app for Mobile Helix SDK (see github.com/shallem/LinkHTML5SDK.git for the SDK)
 
-The Mobile Helix SDK enables writing off-line first HTML5 apps, and is awesome. Please get the full SDK here: https://github.com/generalgau/mobilehelixsdkdemo.git
+The Mobile Helix SDK enables writing off-line first HTML5 apps, and is awesome. Please get the full SDK here: https://github.com/shallem/LinkHTML5SDK.git
 
 The SDK documentation is a good overview of the full capabilities of the SDK. This repository is a small demo application - a chat client - which will help you get started. Use it as a refernce to add off-line storage, sort, filter, search, and applicable UI elements to your JQM (JQuery Mobile) application.
 
