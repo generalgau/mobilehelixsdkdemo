@@ -8,7 +8,7 @@ This is an HTML5 chat client, meant to demonstrate the offline capabilities prov
 The server is currently hosted by Openshift, written in PHP using CakePHP with a MySQL back end. To use the chat client as-is please contact @html5appman or email ilya@mobilehelix.com to get credentials to use the server-side component.
 
 Once you have credentials, you can log into the chat client here:
-http://sdk.mobilehelix.com/awesomechat.html
+http://mobilehelix.com/sdk/awesomechat.html
 
 The Mobile Helix SDK enables writing off-line first HTML5 apps, and is awesome. Please get the full SDK here: https://github.com/shallem/LinkHTML5SDK.git
 
